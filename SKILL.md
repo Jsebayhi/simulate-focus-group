@@ -97,3 +97,18 @@ Invoke an independent **Lead Market Intelligence Analyst Sub-Agent** to synthesi
    * Direct contrast: What a naive LLM would say vs. what real stakeholders said.
 4. **Prescriptive Redesign Blueprint**:
    * 3 to 5 concrete structural edits to eliminate objections and unlock real-world adoption.
+
+---
+
+## 5. Theoretical Grounding & Design Provenance
+
+This skill is mathematically and empirically grounded in peer-reviewed literature across computational social science, microeconomics, and AI alignment:
+* **Algorithmic Fidelity & 4D Persona Vectors**: Argyle et al. (2023, *Political Analysis*); Aher, Arriaga, & Kalai (2022, *Microsoft Research*).
+* **Discrete Choice & Random Utility ($U = V + \epsilon$)**: McFadden (1974); Brand, Israeli, & Ngwe (2024, *Harvard Business School / ACM EC*).
+* **Economic Constraints & Homo Silicus**: Horton, Filippas, & Manning (2023, *NBER / MIT*).
+* **Sycophancy Suppression & Fatal Flaw Inversion**: Perez et al. (2022); Sharma et al. (2023, *Anthropic*).
+* **Secret Ballot vs Information Cascades**: Bikhchandani et al. (1992); Kaiser et al. (2025).
+* **Mitigating Analytic Flexibility**: Cummins (2025–2026, *Computational & Text Analysis Methods*).
+
+👉 *Full paper-by-paper derivation and upgrade playbook*: [`docs/THEORETICAL_PROVENANCE_AND_SKILL_DESIGN.md`](file:///mnt/Linux_DATA/projects_perso/perso-2nd-brain/repos/target-audience-simulator/docs/THEORETICAL_PROVENANCE_AND_SKILL_DESIGN.md)
+

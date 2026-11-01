@@ -74,6 +74,7 @@ This project is built upon rigorous scientific and economic research:
 
 ## Quick Navigation
 
-* Read the complete theoretical framework: [`docs/FLAGSHIP_SIMULATION_ARCHITECTURE.md`](file:///mnt/Linux_DATA/projects_perso/perso-2nd-brain/repos/target-audience-simulator/docs/FLAGSHIP_SIMULATION_ARCHITECTURE.md)
-* Read the agent topologies guide: [`docs/02-agent-mechanics-and-topologies/02-topologies-secret-ballot-vs-deliberation.md`](file:///mnt/Linux_DATA/projects_perso/perso-2nd-brain/repos/target-audience-simulator/docs/02-agent-mechanics-and-topologies/02-topologies-secret-ballot-vs-deliberation.md)
-* Inspect the Skill Specification: [`docs/04-skill-operationalization-blueprint/01-skill-spec-simulating-target-personas.md`](file:///mnt/Linux_DATA/projects_perso/perso-2nd-brain/repos/target-audience-simulator/docs/04-skill-operationalization-blueprint/01-skill-spec-simulating-target-personas.md)
+* 📖 **Theoretical Provenance & Skill Architecture**: [`docs/THEORETICAL_PROVENANCE_AND_SKILL_DESIGN.md`](file:///mnt/Linux_DATA/projects_perso/perso-2nd-brain/repos/target-audience-simulator/docs/THEORETICAL_PROVENANCE_AND_SKILL_DESIGN.md) (Complete paper-by-paper derivation and design record)
+* 🏛️ **Flagship Architecture Blueprint**: [`docs/FLAGSHIP_SIMULATION_ARCHITECTURE.md`](file:///mnt/Linux_DATA/projects_perso/perso-2nd-brain/repos/target-audience-simulator/docs/FLAGSHIP_SIMULATION_ARCHITECTURE.md)
+* 🗳️ **Agent Topologies (Secret Ballot vs Deliberation)**: [`docs/02-agent-mechanics-and-topologies/02-topologies-secret-ballot-vs-deliberation.md`](file:///mnt/Linux_DATA/projects_perso/perso-2nd-brain/repos/target-audience-simulator/docs/02-agent-mechanics-and-topologies/02-topologies-secret-ballot-vs-deliberation.md)
+* ⚙️ **The Skill Definition**: [`skills/target-audience-simulator/SKILL.md`](file:///mnt/Linux_DATA/projects_perso/perso-2nd-brain/repos/target-audience-simulator/skills/target-audience-simulator/SKILL.md) (Symlinked to `.agents/skills/target-audience-simulator`)
