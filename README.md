@@ -28,7 +28,7 @@ By leveraging heterogeneous sub-agent ensembles conditioned on mathematically gr
 target-audience-simulator/
 ├── README.md                                # You are here
 ├── docs/                                    # The comprehensive deep-dive research dossier
-│   ├── FLAGSHIP_SIMULATION_ARCHITECTURE.md  # End-to-end production architecture & operational blueprint
+│   ├── flagship-simulation-architecture.md  # End-to-end production architecture & operational blueprint
 │   ├── 01-theoretical-foundations/          # Academic, cognitive & economic foundations
 │   │   ├── 01-algorithmic-fidelity-and-silicon-sampling.md
 │   │   ├── 02-homo-silicus-and-discrete-choice-theory.md
@@ -74,7 +74,7 @@ This project is built upon rigorous scientific and economic research:
 
 ## Quick Navigation
 
-* 📖 **Theoretical Provenance & Skill Architecture**: [`docs/THEORETICAL_PROVENANCE_AND_SKILL_DESIGN.md`](file:///mnt/Linux_DATA/projects_perso/perso-2nd-brain/repos/target-audience-simulator/docs/THEORETICAL_PROVENANCE_AND_SKILL_DESIGN.md) (Complete paper-by-paper derivation and design record)
-* 🏛️ **Flagship Architecture Blueprint**: [`docs/FLAGSHIP_SIMULATION_ARCHITECTURE.md`](file:///mnt/Linux_DATA/projects_perso/perso-2nd-brain/repos/target-audience-simulator/docs/FLAGSHIP_SIMULATION_ARCHITECTURE.md)
+* 📖 **Theoretical Provenance & Skill Architecture**: [`docs/theoretical-provenance-and-skill-design.md`](file:///mnt/Linux_DATA/projects_perso/perso-2nd-brain/repos/target-audience-simulator/docs/theoretical-provenance-and-skill-design.md) (Complete paper-by-paper derivation and design record)
+* 🏛️ **Flagship Architecture Blueprint**: [`docs/flagship-simulation-architecture.md`](file:///mnt/Linux_DATA/projects_perso/perso-2nd-brain/repos/target-audience-simulator/docs/flagship-simulation-architecture.md)
 * 🗳️ **Agent Topologies (Secret Ballot vs Deliberation)**: [`docs/02-agent-mechanics-and-topologies/02-topologies-secret-ballot-vs-deliberation.md`](file:///mnt/Linux_DATA/projects_perso/perso-2nd-brain/repos/target-audience-simulator/docs/02-agent-mechanics-and-topologies/02-topologies-secret-ballot-vs-deliberation.md)
 * ⚙️ **The Skill Definition**: [`skills/target-audience-simulator/SKILL.md`](file:///mnt/Linux_DATA/projects_perso/perso-2nd-brain/repos/target-audience-simulator/skills/target-audience-simulator/SKILL.md) (Symlinked to `.agents/skills/target-audience-simulator`)

@@ -110,5 +110,5 @@ This skill is mathematically and empirically grounded in peer-reviewed literatur
 * **Secret Ballot vs Information Cascades**: Bikhchandani et al. (1992); Kaiser et al. (2025).
 * **Mitigating Analytic Flexibility**: Cummins (2025–2026, *Computational & Text Analysis Methods*).
 
-👉 *Full paper-by-paper derivation and upgrade playbook*: [`docs/THEORETICAL_PROVENANCE_AND_SKILL_DESIGN.md`](file:///mnt/Linux_DATA/projects_perso/perso-2nd-brain/repos/target-audience-simulator/docs/THEORETICAL_PROVENANCE_AND_SKILL_DESIGN.md)
+👉 *Full paper-by-paper derivation and upgrade playbook*: [`docs/theoretical-provenance-and-skill-design.md`](file:///mnt/Linux_DATA/projects_perso/perso-2nd-brain/repos/target-audience-simulator/docs/theoretical-provenance-and-skill-design.md)
 
