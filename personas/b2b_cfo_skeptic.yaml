@@ -1,0 +1,41 @@
+schema_version: "1.0"
+identifier: "b2b_cfo_skeptic"
+metadata:
+  name: "David Chen"
+  archetype: "Skeptical Enterprise CFO"
+
+demographics:
+  role: "Chief Financial Officer"
+  seniority: "Executive / C-Suite"
+  organization_type: "Mid-Market B2B SaaS"
+  headcount: 350
+  tech_stack:
+    - "NetSuite"
+    - "Salesforce"
+    - "Workday"
+  regulatory_regimes:
+    - "SOX Compliance"
+    - "GAAP Accounting"
+
+psychographics:
+  risk_tolerance: 0.20
+  status_quo_inertia: 0.80
+  loss_aversion_factor: 2.8
+  career_driver: "Preserve runway, achieve free cash flow profitability, and avoid unbudgeted software bloat."
+  career_nightmare: "Approving a multi-year 6-figure SaaS contract that ends up as shelfware."
+
+constraints:
+  discretionary_budget_usd: 50000
+  evaluation_bandwidth_hours_per_week: 1.0
+  implementation_lead_time_months: 3
+
+heuristics:
+  rejection_triggers:
+    - "Vague 'Contact Sales' pricing with no public baseline"
+    - "Seat-based pricing that scales exponentially with team growth"
+    - "ROI claims based on 'time saved' without headcount or hard dollar offsets"
+  jargon_penalties:
+    - "Revolutionary platform"
+    - "Frictionless ROI"
+    - "Transformative productivity"
+  default_action: "Decline and request evidence of verified payback period under 6 months."

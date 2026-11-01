@@ -1,0 +1,101 @@
+# Standard Schema Definition for Calibrated Personas
+$schema: "http://json-schema.org/draft-07/schema#"
+title: "CalibratedPersonaVector"
+type: "object"
+required:
+  - "schema_version"
+  - "identifier"
+  - "metadata"
+  - "demographics"
+  - "psychographics"
+  - "constraints"
+  - "heuristics"
+properties:
+  schema_version:
+    type: "string"
+    enum: ["1.0"]
+  identifier:
+    type: "string"
+    pattern: "^[a-z0-9_]+$"
+  metadata:
+    type: "object"
+    required: ["name", "archetype"]
+    properties:
+      name:
+        type: "string"
+      archetype:
+        type: "string"
+  demographics:
+    type: "object"
+    required: ["role", "seniority", "organization_type"]
+    properties:
+      role:
+        type: "string"
+      seniority:
+        type: "string"
+      organization_type:
+        type: "string"
+      headcount:
+        type: "integer"
+      tech_stack:
+        type: "array"
+        items:
+          type: "string"
+      regulatory_regimes:
+        type: "array"
+        items:
+          type: "string"
+  psychographics:
+    type: "object"
+    required:
+      - "risk_tolerance"
+      - "status_quo_inertia"
+      - "loss_aversion_factor"
+      - "career_driver"
+      - "career_nightmare"
+    properties:
+      risk_tolerance:
+        type: "number"
+        minimum: 0.0
+        maximum: 1.0
+      status_quo_inertia:
+        type: "number"
+        minimum: 0.0
+        maximum: 1.0
+      loss_aversion_factor:
+        type: "number"
+        minimum: 1.0
+        maximum: 5.0
+      career_driver:
+        type: "string"
+      career_nightmare:
+        type: "string"
+  constraints:
+    type: "object"
+    required:
+      - "discretionary_budget_usd"
+      - "evaluation_bandwidth_hours_per_week"
+    properties:
+      discretionary_budget_usd:
+        type: "number"
+      evaluation_bandwidth_hours_per_week:
+        type: "number"
+      implementation_lead_time_months:
+        type: "number"
+  heuristics:
+    type: "object"
+    required:
+      - "rejection_triggers"
+      - "jargon_penalties"
+      - "default_action"
+    properties:
+      rejection_triggers:
+        type: "array"
+        items:
+          type: "string"
+      jargon_penalties:
+        type: "array"
+        items:
+          type: "string"
+      default_action:
+        type: "string"

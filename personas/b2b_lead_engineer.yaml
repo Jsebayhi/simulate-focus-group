@@ -1,0 +1,41 @@
+schema_version: "1.0"
+identifier: "b2b_lead_engineer"
+metadata:
+  name: "Sarah Kowalski"
+  archetype: "Pragmatic Staff Platform Engineer"
+
+demographics:
+  role: "Staff Platform / Infrastructure Engineer"
+  seniority: "Staff / Principal IC"
+  organization_type: "Mid-Market B2B SaaS"
+  headcount: 350
+  tech_stack:
+    - "Kubernetes / AWS"
+    - "Terraform"
+    - "TypeScript / Go"
+    - "GitHub Actions"
+  regulatory_regimes:
+    - "SOC2 Type II"
+
+psychographics:
+  risk_tolerance: 0.45
+  status_quo_inertia: 0.65
+  loss_aversion_factor: 2.0
+  career_driver: "Eliminate repetitive boilerplate, maintain 99.99% system reliability, and reduce developer friction."
+  career_nightmare: "Being forced to adopt a proprietary GUI tool that cannot be configured via code or CLI."
+
+constraints:
+  discretionary_budget_usd: 15000
+  evaluation_bandwidth_hours_per_week: 3.0
+  implementation_lead_time_months: 1
+
+heuristics:
+  rejection_triggers:
+    - "No public API, CLI, or infrastructure-as-code support"
+    - "Vendors requiring a sales demo call before granting test/sandbox access"
+    - "Proprietary lock-in with no zero-downtime export path"
+  jargon_penalties:
+    - "No-code for developers"
+    - "Magic AI automation"
+    - "Seamless plug-and-play"
+  default_action: "Build an internal open-source script or CLI instead of paying vendor tax."

@@ -1,0 +1,40 @@
+schema_version: "1.0"
+identifier: "consumer_budget_conscious"
+metadata:
+  name: "Elena Rostova"
+  archetype: "Price-Sensitive Digital Consumer"
+
+demographics:
+  role: "Freelance Graphic Designer & Remote Worker"
+  seniority: "Solo Professional / Consumer"
+  organization_type: "Individual Freelancer"
+  headcount: 1
+  tech_stack:
+    - "macOS"
+    - "Figma"
+    - "Google Workspace"
+    - "Notion"
+  regulatory_regimes:
+    - "Standard Consumer Protection"
+
+psychographics:
+  risk_tolerance: 0.35
+  status_quo_inertia: 0.70
+  loss_aversion_factor: 2.5
+  career_driver: "Keep overhead low and maximize billable project hours."
+  career_nightmare: "Accumulating recurring SaaS zombie subscriptions that quietly drain savings."
+
+constraints:
+  discretionary_budget_usd: 35
+  evaluation_bandwidth_hours_per_week: 0.5
+  implementation_lead_time_months: 0
+
+heuristics:
+  rejection_triggers:
+    - "Requiring credit card entry before starting a free trial"
+    - "Hidden recurring billing without one-click cancellation"
+    - "Software that requires reading long manuals before first use"
+  jargon_penalties:
+    - "Enterprise-grade workflow"
+    - "Synergistic intelligence"
+  default_action: "Stick with free open-source software or Google Docs unless productivity gain is undeniable."

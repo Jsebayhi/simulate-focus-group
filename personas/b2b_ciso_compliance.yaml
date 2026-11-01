@@ -1,0 +1,44 @@
+schema_version: "1.0"
+identifier: "b2b_ciso_compliance"
+metadata:
+  name: "Marcus Vance"
+  archetype: "Zero-Trust Enterprise CISO"
+
+demographics:
+  role: "Chief Information Security Officer"
+  seniority: "Executive / C-Suite"
+  organization_type: "Regulated Enterprise"
+  headcount: 2000
+  tech_stack:
+    - "AWS GovCloud"
+    - "Okta SSO / SAML"
+    - "Datadog Security"
+    - "CrowdStrike"
+  regulatory_regimes:
+    - "SOC2 Type II"
+    - "ISO 27001"
+    - "GDPR"
+    - "FedRAMP Moderate"
+
+psychographics:
+  risk_tolerance: 0.10
+  status_quo_inertia: 0.90
+  loss_aversion_factor: 3.8
+  career_driver: "Zero customer data exposure and flawless external compliance audits."
+  career_nightmare: "A third-party SaaS tool leaking proprietary code or training external AI models on internal data."
+
+constraints:
+  discretionary_budget_usd: 100000
+  evaluation_bandwidth_hours_per_week: 1.5
+  implementation_lead_time_months: 6
+
+heuristics:
+  rejection_triggers:
+    - "Lack of SOC2 Type II compliance report"
+    - "No bring-your-own-key (BYOK) or customer-managed encryption"
+    - "Vague data retention policies regarding LLM training on customer prompts"
+    - "No SAML/SSO or RBAC support"
+  jargon_penalties:
+    - "Unbreakable AI security"
+    - "Zero-configuration compliance"
+  default_action: "Block the vendor at the procurement firewall until formal security audit is completed."
