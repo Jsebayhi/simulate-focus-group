@@ -65,56 +65,10 @@ This framework does not introduce novel machine learning architectures; instead,
 
 ---
 
-## Important Limitations & Ethical Scope
+## Methodological Considerations
 
-We believe in scientific humility regarding synthetic evaluations:
-
-* **Not a Substitute for Human Empirical Research**: Synthetic personas cannot replicate the full richness, lived experiences, cultural contexts, or unanticipated behaviors of real human beings. They should be treated as a pre-flight falsification filter, never as the final verdict.
-* **Distribution Flattening & Caricature Bias**: Language models can smooth over tail risks or collapse into stereotypical persona depictions if prompt constraints are insufficiently calibrated.
-* **Temporal Drift & Calibration**: Persona utility functions require periodic grounding against real-world transactional data and qualitative interviews.
-
----
-
-## Repository Structure
-
-```
-simulate-focus-group/
-├── README.md                                # Project overview and theoretical grounding
-├── SKILL.md                                 # Root system skill specification
-├── skills/
-│   └── simulate-focus-group/
-│       └── SKILL.md                         # Portable skill definition
-├── personas/                                # Production-ready persona definitions (YAML)
-│   ├── b2b_cfo_skeptic.yaml
-│   ├── b2b_lead_engineer.yaml
-│   ├── b2b_ciso_compliance.yaml
-│   └── consumer_budget_conscious.yaml
-├── examples/
-│   ├── sample_pitch.md                      # Reference pitch for simulation
-│   └── simulation_report_contextflow.md     # Full reference multi-agent evaluation report
-└── docs/                                    # Deep-dive theoretical dossier & architecture
-    ├── flagship-simulation-architecture.md  # Detailed operational blueprint
-    ├── theoretical-provenance-and-skill-design.md # In-depth paper-by-paper derivation
-    ├── 01-theoretical-foundations/          # Cognitive & economic foundations
-    │   ├── 01-algorithmic-fidelity-and-silicon-sampling.md
-    │   ├── 02-homo-silicus-and-discrete-choice-theory.md
-    │   ├── 03-the-sycophancy-trap-and-caricature-bias.md
-    │   └── 04-analytic-flexibility-and-evaluation-rigor.md
-    ├── 02-agent-mechanics-and-topologies/   # Orchestration & elicitation mechanics
-    │   ├── 01-persona-conditioning-and-state-vectors.md
-    │   ├── 02-topologies-secret-ballot-vs-deliberation.md
-    │   ├── 03-discrete-choice-and-tradeoff-elicitation.md
-    │   └── 04-multi-agent-focus-groups-and-bandwagoning.md
-    ├── 03-cross-domain-archetypes/          # Domain adaptations
-    │   ├── 01-commercial-and-consumer-conjoint.md
-    │   ├── 02-b2b-enterprise-stakeholder-stress-testing.md
-    │   ├── 03-editorial-reader-and-narrative-reception.md
-    │   └── 04-adversarial-red-teaming-and-compliance.md
-    └── 04-skill-operationalization-blueprint/ # Skill schemas and harness specifications
-        ├── 01-skill-spec-simulating-target-personas.md
-        ├── 02-reusable-persona-schema.yaml
-        └── 03-subagent-execution-harness-spec.md
-```
+* **Distribution Flattening & Caricature Risk**: Language models can smooth over tail preferences or collapse into stereotypical archetypes if persona state vectors lack explicit economic constraints (budget ceilings, bandwidth limits, and loss aversion).
+* **Empirical Grounding**: As established in Brand et al. (2024) and Horton et al. (2023), synthetic discrete choice models achieve highest predictive validity when calibrated against empirical choice baselines and benchmarked against real-world friction data.
 
 ---
 
