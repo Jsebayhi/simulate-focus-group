@@ -1,11 +1,11 @@
 ---
-name: target-audience-simulator
-description: Simulate target audiences, customer reactions, client objections, and stakeholder decisions on any proposal, pitch, pricing, or copy using a multi-agent ensemble with Cold-Isolated Secret Ballot and strategic synthesis.
+name: simulate-focus-group
+description: Simulate multi-agent focus groups, customer reactions, client objections, and stakeholder decisions on any proposal, pitch, pricing, or copy using Cold-Isolated Secret Ballot and strategic synthesis.
 ---
 
-# Target Audience Simulator
+# Simulate Focus Group
 
-> Operational protocol for orchestrating multi-agent ensembles to pre-test proposals, copy, pricing, or strategic decisions against calibrated, unsycophantic human personas.
+> Operational protocol for orchestrating multi-agent ensembles to pre-test proposals, copy, pricing, or strategic decisions against calibrated, unsycophantic human personas without herd bias.
 
 ---
 
@@ -110,5 +110,5 @@ This skill is mathematically and empirically grounded in peer-reviewed literatur
 * **Secret Ballot vs Information Cascades**: Bikhchandani et al. (1992); Kaiser et al. (2025).
 * **Mitigating Analytic Flexibility**: Cummins (2025–2026, *Computational & Text Analysis Methods*).
 
-👉 *Full paper-by-paper derivation and upgrade playbook*: [`../../docs/theoretical-provenance-and-skill-design.md`](file:///mnt/Linux_DATA/projects_perso/perso-2nd-brain/repos/target-audience-simulator/docs/theoretical-provenance-and-skill-design.md)
+👉 *Full paper-by-paper derivation and upgrade playbook*: [`../../docs/theoretical-provenance-and-skill-design.md`](../../docs/theoretical-provenance-and-skill-design.md)
 

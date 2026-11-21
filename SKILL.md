@@ -1,11 +1,11 @@
 ---
-name: simulating-target-audiences
-description: Simulate target audiences, consumer reactions, client objections, and stakeholder decisions on any proposal, pitch, pricing, or copy using a multi-agent ensemble with Cold-Isolated Secret Ballot and strategic synthesis.
+name: simulate-focus-group
+description: Simulate multi-agent focus groups, customer reactions, client objections, and stakeholder decisions on any proposal, pitch, pricing, or copy using Cold-Isolated Secret Ballot and strategic synthesis.
 ---
 
-# Simulating Target Audiences & Personas
+# Simulate Focus Group
 
-> Guide and operational protocol for orchestrating multi-agent ensembles to pre-test proposals, copy, pricing, or strategic decisions against calibrated, unsycophantic human personas.
+> Operational protocol for orchestrating multi-agent ensembles to pre-test proposals, copy, pricing, or strategic decisions against calibrated, unsycophantic human personas without herd bias.
 
 ---
 
@@ -51,7 +51,7 @@ Assemble **3 to 5 orthogonal personas** across four dimensions:
 3. **Resource Constraints**: Discretionary budget limit ($), weekly evaluation bandwidth (hours), implementation lead time.
 4. **Behavioral Heuristics**: Jargon penalties (words that trigger cynicism), dealbreakers, proof requirements.
 
-*(If the user specified specific personas, convert their descriptions into this 4D structure).*
+*(If the user specified custom personas, convert their descriptions into this 4D structure).*
 
 ---
 
@@ -62,7 +62,7 @@ Spawn parallel sub-agents using `invoke_subagent`. Each sub-agent gets:
 1. The Persona Vector.
 2. The Target Artifact (presented as an unsolicited third-party document).
 3. The **Mandatory Anti-Sycophancy Directive**:
-   > *"You are evaluated on your critical discernment and risk detection. Praising a flawed proposal is considered a protocol failure. Identify the hidden operational costs, ambiguity, and why doing nothing is your default choice."*
+   > *"You are evaluated on your critical discernment and risk detection. Praising a flawed proposal is a protocol failure. Identify the hidden operational costs, ambiguity, and why doing nothing is your default choice."*
 
 Each sub-agent must return:
 * **Resonance Score**: Integer from 1 to 10.
@@ -110,5 +110,5 @@ This skill is mathematically and empirically grounded in peer-reviewed literatur
 * **Secret Ballot vs Information Cascades**: Bikhchandani et al. (1992); Kaiser et al. (2025).
 * **Mitigating Analytic Flexibility**: Cummins (2025–2026, *Computational & Text Analysis Methods*).
 
-👉 *Full paper-by-paper derivation and upgrade playbook*: [`docs/theoretical-provenance-and-skill-design.md`](file:///mnt/Linux_DATA/projects_perso/perso-2nd-brain/repos/target-audience-simulator/docs/theoretical-provenance-and-skill-design.md)
+👉 *Full paper-by-paper derivation and upgrade playbook*: [`docs/theoretical-provenance-and-skill-design.md`](docs/theoretical-provenance-and-skill-design.md)
 
